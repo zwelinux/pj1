@@ -1,0 +1,98 @@
+- pip install django 
+
+- python -m django --version
+
+# create a project
+- django-admin startproject project1
+
+# create an app
+- python manage.py startapp app 
+
+# File System 
+
+DJango 
+ -> MVT -> model view template -> Model
+ -> MVC -> model view controller 
+
+App
+- admin.py -> admin page 
+- apps.py -> no need
+- models.py -> create model + database 
+- tests.py -> unit testing 
+- views.py -> model + views + template -> user view
+(models \ views \ admin)
+
+project1
+- asgi.py -> host 
+- settings.py -> project settings 
+- urls.py -> link
+- wsgi.py -> host 
+(settings / urls)
+
+manage.py -> virtual env -> server script 
+
+Facebook Project(Project)
+- blog
+- messenger
+
+Mini Management Software
+
+user
+group
+daily task 
+
+Task 
+- title 
+- content 
+- start time
+- end time
+- date time
+
+# register app in settings
+
+# update settings 
+import os (templates)
+os.path.join(BASE_DIR, 'templates')
+
+# create model 
+
+# model + db => sqlite 
+- sqlite 
+- mongodb
+- postgresql
+python manage.py makemigrations 
+python manage.py migrate 
+
+# model code use admin 
+- CharField
+- TextField
+- DateTimeField
+- TimeField
+- DateField
+- ForeignKey
+
+- Image
+- File
+
+# admin create 
+
+# runserver
+
+===========================================
+
+
+django -> model -> 1 ER 
+       -> Field -> doc -> 
+       -> model + db 
+
+       -> user | admin 
+       -> admin -> admin.py -> inherit -> model
+
+       -> admin create
+       -> runserver 
+
+django packages
+
+version control - git 
+
+host - pythonanywhre
